@@ -29,9 +29,8 @@ export default function QuestionsPage() {
                   Questions employées
                 </h3>
                 <p className="text-wrap text-sm text-foreground/60 mb-6">
-                  A modern pattern featuring diagonal lines in a repeating grid.
-                  Creates a sense of movement and depth while maintaining a clean,
-                  minimalist aesthetic.
+                  Questionnaire conçu pour évaluer les connaissances et les pratiques
+                  en matière de sécurité informatique parmi les employés d'une organisation.
                 </p>
                 <Button size="sm" asChild>
                   <Link href="/questions/employees/1">
@@ -48,9 +47,9 @@ export default function QuestionsPage() {
                   Questions administrateurs
                 </h3>
                 <p className="text-wrap text-sm text-foreground/60 mb-6">
-                  A modern pattern featuring diagonal lines in a repeating grid.
-                  Creates a sense of movement and depth while maintaining a clean,
-                  minimalist aesthetic.
+                  Questionnaire destiné aux administrateurs système et aux responsables
+                  de la sécurité pour évaluer leurs compétences en gestion de la sécurité
+                  des infrastructures informatiques.
                 </p>
                 <Button size="sm">
                   <Link href="/questions/administrators/1">

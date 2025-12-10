@@ -19,6 +19,156 @@
     "type": "single",
     "options": ["Internet Explorer", "Firefox", "Mozilla", "Microsoft Edge"],
     "answer": "Microsoft Edge"
+  },
+  {
+    "id": 4,
+    "question": "À quelle fréquence utilisez-vous Windows Update ?",
+    "type": "single",
+    "options": [
+      "Il est paramétré pour se mettre à jour automatiquement",
+      "Au moins deux fois par semaine",
+      "Au moins une fois par semaine",
+      "De temps en temps quand je m'en souviens",
+      "Jamais",
+      "Je ne sais pas ce que c'est Windows Update"
+    ],
+    "answer": "Il est paramétré pour se mettre à jour automatiquement"
+  },
+  {
+    "id": 5,
+    "question": "Votre ordinateur est-il équipé d'un logiciel antivirus ?",
+    "type": "single",
+    "options": ["Oui", "Non", "Je ne sais pas"],
+    "answer": "Oui"
+  },
+  {
+    "id": 6,
+    "question": "Quel antivirus utilisez-vous ?",
+    "type": "single",
+    "options": ["Avast", "Microsoft", "McAfee", "Autre : précisez", "Je ne sais pas"],
+    "answer": "Microsoft"
+  },
+  {
+    "id": 7,
+    "question": "À quelle fréquence mettez-vous à jour votre logiciel antivirus ?",
+    "type": "single",
+    "options": [
+      "Elle se fait automatiquement",
+      "Au moins deux fois par semaine",
+      "Au moins une fois par semaine",
+      "De temps en temps quand je m'en souviens",
+      "Jamais",
+      "Jamais -> abonnement épuisé"
+    ],
+    "answer": "Elle se fait automatiquement"
+  },
+  {
+    "id": 8,
+    "question": "Utilisez-vous un logiciel pare-feu sur votre ordinateur ?",
+    "type": "single",
+    "options": ["Oui", "Non", "Je ne sais pas"],
+    "answer": "Oui"
+  },
+  {
+    "id": 9,
+    "question": "Le mot de passe de votre PC est-il géré par une équipe administrative ?",
+    "type": "single",
+    "options": ["Oui", "Non", "Je ne sais pas"],
+    "answer": "Oui"
+  },
+  {
+    "id": 10,
+    "question": "Vos mots de passe que vous utilisez pour différents services sont-ils tous différents ?",
+    "type": "single",
+    "options": ["Oui", "Non", "Je ne sais pas"],
+    "answer": "Oui"
+  },
+  {
+    "id": 11,
+    "question": "Vos mots de passe que vous utilisez font-ils plus de 12 caractères ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Oui"
+  },
+  {
+    "id": 12,
+    "question": "Cochez les catégories dont vos mots de passe répondent :",
+    "type": "multiple",
+    "options": ["Des majuscules", "Des minuscules", "Des chiffres", "Des caractères spéciaux"],
+    "answer": ["Des majuscules", "Des minuscules", "Des chiffres", "Des caractères spéciaux"]
+  },
+  {
+    "id": 13,
+    "question": "À quelle fréquence utilisez-vous votre PC personnel au travail en vous connectant au réseau de l'entreprise ?",
+    "type": "single",
+    "options": [
+      "Tous les jours",
+      "Au moins deux fois par semaine",
+      "Au moins une fois par semaine",
+      "De temps en temps si je l'ai sur moi",
+      "Jamais"
+    ],
+    "answer": "Jamais"
+  },
+  {
+    "id": 14,
+    "question": "Vous arrive-t-il d'écrire votre mot de passe en clair quelque part ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Non"
+  },
+  {
+    "id": 15,
+    "question": "Vous arrive-t-il de partager vos mots de passe avec quelqu'un de votre entourage ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Non"
+  },
+  {
+    "id": 16,
+    "question": "Vous arrive-t-il de répondre Oui à 'Souhaitez-vous enregistrer ce mot de passe' lorsque votre navigateur vous le propose ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Non"
+  },
+  {
+    "id": 17,
+    "question": "Vous arrive-t-il de recevoir de faux mails vous invitant à cliquer sur un lien ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Oui"
+  },
+  {
+    "id": 18,
+    "question": "Avez-vous déjà cliqué sur un de ces liens ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Non"
+  },
+  {
+    "id": 19,
+    "question": "Qu'avez-vous fait du mail ?",
+    "type": "single",
+    "options": [
+      "Je l'ai bloqué",
+      "Je l'ai bloqué et signalé",
+      "Je l'ai partagé à l'ensemble du service",
+      "Je l'ai signalé à l'équipe technique"
+    ],
+    "answer": "Je l'ai bloqué et signalé"
+  },
+  {
+    "id": 20,
+    "question": "Vous est-il déjà arrivé de brancher une clé USB d'un collègue / prestataire dans votre ordinateur ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Non"
+  },
+  {
+    "id": 21,
+    "question": "Vous est-il déjà arrivé de prêter votre clé USB à quelqu'un ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Non"
   }
-
 ]

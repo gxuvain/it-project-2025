@@ -39,7 +39,7 @@ export function QuestionCard({ id, question, type, options, onAnswer, disabled =
           {question}
         </CardTitle>
         <CardDescription>
-          Description
+          {type === "single" ? "Sélectionnez une seule réponse." : "Sélectionnez une ou plusieurs réponses."}
         </CardDescription>
       </CardHeader>
       <CardContent>
