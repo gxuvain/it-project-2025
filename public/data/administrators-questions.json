@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "question": "Qui sont les administrateurs du domaine ?",
+    "type": "single",
+    "options": [
+      "Des employés de Xanadu",
+      "Des employés spéciaux de Xanadu disposant de privilèges supérieurs",
+      "Une entreprise externe"
+    ],
+    "answer": "Des employés spéciaux de Xanadu disposant de privilèges supérieurs"
+  },
+  {
+    "id": 2,
+    "question": "Comment gérez-vous les invités ?",
+    "type": "single",
+    "options": [
+      "Ils sont sur un réseau séparé avec des comptes invités très restreints",
+      "Ils ont des comptes invités très restreints",
+      "Ils ont des comptes standards sur l’AD",
+      "Ils ont accès à toutes les ressources"
+    ],
+    "answer": "Ils sont sur un réseau séparé avec des comptes invités très restreints"
+  },
+  {
+    "id": 3,
+    "question": "Les administrateurs du domaine possèdent-ils des comptes utilisateurs standards pour séparer les usages ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Oui"
+  },
+  {
+    "id": 4,
+    "question": "Tous les utilisateurs du domaine possèdent-ils un PC professionnel ?",
+    "type": "single",
+    "options": ["Oui", "Non", "Si non lesquels ?"],
+    "answer": "Oui"
+  },
+  {
+    "id": 5,
+    "question": "Les mots de passe des administrateurs respectent-ils les exigences (12 caractères, majuscules, minuscules, chiffres, spéciaux) ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Oui"
+  },
+  {
+    "id": 6,
+    "question": "Utilisez-vous un pare-feu entre votre domaine et Internet suffisamment sécurisé ?",
+    "type": "single",
+    "options": ["Oui", "Non", "Je ne sais pas"],
+    "answer": "Oui"
+  },
+  {
+    "id": 7,
+    "question": "Quel pare-feu utilisez-vous ?",
+    "type": "single",
+    "options": ["Microsoft Defender", "Avast", "McAfee"],
+    "answer": "Microsoft Defender"
+  },
+  {
+    "id": 8,
+    "question": "Les employés ont-ils accès à PowerShell en administrateur sur leur PC ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Non"
+  },
+  {
+    "id": 9,
+    "question": "Utilisez-vous des VLANs permettant de segmenter efficacement vos services ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Oui"
+  },
+  {
+    "id": 10,
+    "question": "Organisez-vous des formations régulières sur la cybersécurité ?",
+    "type": "single",
+    "options": [
+      "Plus d'une fois par mois",
+      "Une fois par mois",
+      "Une fois par semestre",
+      "Une fois par an",
+      "Une fois depuis la création de l'entreprise",
+      "Jamais"
+    ],
+    "answer": "Une fois par semestre"
+  },
+  {
+    "id": 11,
+    "question": "Vous arrive-t-il de vous connecter avec votre compte administrateur sur des postes utilisateurs et d'oublier de fermer votre session ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Non"
+  },
+  {
+    "id": 12,
+    "question": "Votre pare-feu permet-il seulement l'accès à des sites web sécurisés (HTTPS) ?",
+    "type": "single",
+    "options": ["Oui que HTTPS", "Certains HTTP", "Que des HTTP"],
+    "answer": "Certains HTTP"
+  },
+  {
+    "id": 13,
+    "question": "Quel système d'authentification au domaine utilisez-vous ?",
+    "type": "single",
+    "options": ["Kerberos", "NTLM v1", "NTLM v2"],
+    "answer": "Kerberos"
+  },
+  {
+    "id": 14,
+    "question": "Utilisez-vous un gestionnaire de mots de passe sécurisé ?",
+    "type": "single",
+    "options": ["Oui", "Non"],
+    "answer": "Oui"
+  },
+  {
+    "id": 15,
+    "question": "Les GPO mises en place couvrent-elles les surfaces suivantes ?",
+    "type": "multiple",
+    "options": [
+      "Politiques des mots de passe",
+      "Verrouillage des comptes",
+      "Règles du pare-feu",
+      "Restriction d'installation de logiciels",
+      "Windows Update",
+      "Déploiement de logiciels",
+      "Déploiement des imprimantes",
+      "Mappage des lecteurs réseau",
+      "Création de raccourcis",
+      "Modification des registres",
+      "Blocage de l'accès aux registres",
+      "Modération du panneau de configuration",
+      "Création de compte admin local",
+      "Restrictions périphériques USB",
+      "Autres"
+    ],
+    "answer": [
+      "Politiques des mots de passe",
+      "Verrouillage des comptes",
+      "Règles du pare-feu",
+      "Restriction d'installation de logiciels",
+      "Windows Update",
+      "Déploiement de logiciels",
+      "Déploiement des imprimantes",
+      "Mappage des lecteurs réseau",
+      "Création de raccourcis",
+      "Blocage de l'accès aux registres",
+      "Modération du panneau de configuration",
+      "Restrictions périphériques USB"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Quelles règles pare-feu avez-vous mises en place ?",
+    "type": "text",
+    "answer": "Blocage des ports non essentiels, autorisation stricte des ports nécessaires aux services internes, filtrage web, IDS/IPS activés."
+  },
+  {
+    "id": 17,
+    "question": "Quel type de sauvegarde effectuez-vous ?",
+    "type": "single",
+    "options": ["Incrémentielle", "Différentielle", "Complète"],
+    "answer": "Incrémentielle"
+  },
+  {
+    "id": 18,
+    "question": "Adaptez-vous la régularité de vos sauvegardes selon la criticité des données ?",
+    "type": "single",
+    "options": [
+      "Oui, différents intervalles selon criticité",
+      "Non, tout est sauvegardé en même temps"
+    ],
+    "answer": "Oui, différents intervalles selon criticité"
+  },
+  {
+    "id": 19,
+    "question": "Combien de copies de vos données effectuez-vous régulièrement ?",
+    "type": "single",
+    "options": [
+      "Au moins 3 copies",
+      "Au moins 2 copies",
+      "Au moins 1 copie",
+      "Aucune copie"
+    ],
+    "answer": "Au moins 3 copies"
+  },
+  {
+    "id": 20,
+    "question": "Quels types de supports physiques utilisez-vous ?",
+    "type": "multiple",
+    "options": ["NAS", "SAN", "Disques durs externes", "Clés USB", "Carte SD"],
+    "answer": ["NAS", "Disques durs externes"]
+  },
+  {
+    "id": 21,
+    "question": "Disposez-vous de l'ensemble nécessaire pour appliquer la règle 3-2-1 ?",
+    "type": "single",
+    "options": [
+      "Oui, 3 copies / 2 supports / 1 stockage hors ligne",
+      "Non, pas tous les éléments"
+    ],
+    "answer": "Oui, 3 copies / 2 supports / 1 stockage hors ligne"
+  },
+  {
+    "id": 22,
+    "question": "Si vous disposez de plusieurs disques, quel type de RAID utilisez-vous ?",
+    "type": "single",
+    "options": ["Raid 0", "Raid 1", "Raid 10", "Raid 01", "Raid 5", "Je ne sais pas"],
+    "answer": "Raid 5"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "question": "Qui est le responsable de l'installation et de la maintenance des logiciels de sécurité sur votre ordinateur ?",
+    "type": "single",
+    "options": ["Salarié", "Administrateur", "Responsable Informatique", "Vous"],
+    "answer": "Responsable Informatique"
+  },
+  {
+    "id": 2,
+    "question": "Quelle version de Windows est installée sur l'ordinateur que vous utilisez normalement pour vous connecter à Internet ?",
+    "type": "single",
+    "options": ["Windows 10/11", "Windows 8.1", "Windows 8", "Windows 7"],
+    "answer": "Windows 10/11"
+  },
+  {
+    "id": 3,
+    "question": "Quel navigateur web utilisez-vous ?",
+    "type": "single",
+    "options": ["Internet Explorer", "Firefox", "Mozilla", "Microsoft Edge"],
+    "answer": "Microsoft Edge"
+  }
+
+]
